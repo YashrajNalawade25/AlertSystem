@@ -1,0 +1,73 @@
+/* Import Krona One font */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Krona One', sans-serif; /* Apply Krona One font */
+    background-color: #f9f9f9; /* Soft background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333333; /* Darker text for contrast */
+}
+
+/* Form Container */
+.container {
+    background-color: #ffffff; /* White card-like container */
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #00a65a; /* Highlighted green border */
+    box-shadow: 0 0 5px rgba(0, 166, 90, 0.5);
+}
+
+/* Submit Button */
+.btn-primary {
+    background-color: 
+    #D3EB24; /* Vibrant green */
+    width: 100%;
+    border-color: 
+    #D3EB24;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.6rem 1.5rem;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .container {
+        padding: 1.5rem;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+}

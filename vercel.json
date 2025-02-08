@@ -1,17 +1,10 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "api/alertData.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
-    }
+    { "src": "index.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/alertData", "dest": "/api/alertData.js" },
+    { "src": "/api/alertData", "dest": "/index.js" },
     { "src": "/", "dest": "/index.js" }
   ]
 }
