@@ -40,7 +40,7 @@ app.post("/api/alertData", async (req, res) => {
 
     if (error) throw error;
 
-    res.status(200).json({ message: "Data saved successfully!", data });
+    res.redirect("/");
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
