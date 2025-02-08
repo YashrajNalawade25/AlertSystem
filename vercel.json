@@ -6,5 +6,8 @@
   "routes": [
     { "src": "/api/alertData", "dest": "/index.js" },
     { "src": "/", "dest": "/index.js" }
+  ],
+  "rewrites":[
+    {"source":"/public/(.*)","destination":"/public/$1"}
   ]
 }
